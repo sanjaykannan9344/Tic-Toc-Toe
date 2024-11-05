@@ -28,7 +28,7 @@ export default function Player({ initialName, symbol }) {
         {editPlayerName}
         <span className="player-symbol">{symbol}</span>
       </span>
-      <button onClick={handleEditClick}>{edit ? "Save" : "Edit"}</button>
+      <button onClick={handleEditClick}>{edit ? "Save" : "Edi"}</button>
     </li>
   );
 }
